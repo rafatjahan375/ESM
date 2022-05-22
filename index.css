@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+padding: 0%;
+margin: 0%;
+}
+.navbar{
+    background-color: rgba(102, 81, 49, 0.9);
+    z-index: 1000;
+}
+.navbar-nav li:hover a{
+    color: #3EC1D5 !important;
+}
+
+/* end try of responsive of mobile coading */
+
+/* start about section coading */
+.about-section{
+    width: 100%;
+    background-color: #F9F9F9;
+}
+.about-section hr{
+    width: 20%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+/* end section coading */
+
+/* start our service coading */
+.service-section{
+    width: 100%;
+}
+.service-section hr{
+    width: 12%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.our-service p,i,h3{
+    text-align: center;
+    color: #444444;
+    font-family: sans-serif;
+}
+.our-service:hover h3{
+    color: #3EC1D5;
+}
+.our-service:hover i{
+    color: #3EC1D5;
+}
+/* en our service coading */
+
+/* start team section coading */
+.team-section{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.team-section hr{
+    width: 12%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.team-section p,i,h3{
+    text-align: center;
+    color: #444444;
+    font-family: sans-serif;
+}
+.team-image-section{
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.team-opacity-box{
+    width: 100%;
+    height: 0%;
+    background-color: black;
+    opacity: 0.7;
+    transition: 0.7s;
+}
+.team-image-section:hover .team-opacity-box{
+    height: 100%;
+}
+.team-opacity-box i{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0;
+}
+.team-opacity-box:hover i{
+    transition: 1s;
+    opacity: 1;
+}
+.team-opacity-box i:hover{
+    background-color: #3EC1D5;
+    transition: 0.5s;
+}
+/* end team section coading */
+
+/* start image section coading */
+.img-section{
+    width: 100%;
+}
+.bg-imgae{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.image-opacity-box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    box-sizing: border-box;
+}
+.image-opacity-box button{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    columns: white;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.image-opacity-box button:hover{
+    background-color: #3EC1D5;
+    border: none;
+}
+/* end image section coading */
+
+/* start our portfolio section coading */
+.portfolio-section{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.portfolio-section hr{
+    width: 12%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.our-portfolio-nav{
+    background-color: transparent;
+}
+.our-portfolio-nav li{
+    width: 70px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.our-portfolio-nav li a{
+    color: black;
+}
+.our-portfolio-nav li:hover{
+    background-color: #3EC1D5;
+    border: none;
+}
+.our-portfolio-nav li:hover a{
+    color: white !important;
+}
+.portfolio-section p,i,h3{
+    text-align: center;
+    color: #444444;
+    font-family: sans-serif;
+}
+.portfolio-image-section{
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.portfolio-opacity-box{
+    width: 100%;
+    height: 0%;
+    background-color: black;
+    opacity: 0.9;
+    transition: 0.7s;
+}
+.portfolio-image-section:hover .portfolio-opacity-box{
+    height: 100%;
+}
+.portfolio-opacity-box h3{
+    opacity: 0;
+}
+.portfolio-opacity-box:hover h3{
+    transition: 1s;
+    opacity: 1;
+}
+/* end our portfolio section coading */
+
+/* start pricing table section coding */
+
+.pricing-table-section{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.pricing-table-section hr{
+    width: 12%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.pricing-table-section button{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    columns: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: 1px solid #3EC1D5;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.pricing-table-section button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid #3EC1D5;
+}
+.pricing-table-section i{
+    border: 1px solid black;
+    font-size: 13px;
+}
+/* end pricing table section coding */
+
+/* start testrimonial coading */
+
+.testimonial-section{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.testimonial-section hr{
+    width: 12%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.testimonial-section a{
+    border: 1px solid #ccc;
+    width: 180px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+.testimonial-section a:hover{
+    background-color: #B0D2D3;
+    color: #0B3656;
+}
+.welcome-cmp{
+    background-color: #3EC1D5;
+}
+.welcome-cmp h3{
+    color: white;
+    font-family: sans-serif;
+}
+.welcome-cmp button{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    columns: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: 1px solid #3EC1D5;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.welcome-cmp button:hover{
+    background-color: #3EC1D5;
+    border: 3px solid white;
+    color: white;
+}
+/* end testimonial coading */
+
+/* start contact us coading */
+.contact-section{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.contact-section hr{
+    width: 12%;
+    height: 4px !important;
+    background-color: #3EC1D5;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.contact-us-service p,i{
+    text-align: center;
+    color: #080808d6;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.contact-section button{
+    border: 1px solid rgb(175, 142, 32);
+    width: 210px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+/* end contact us coading */
+
+/* start information section coading*/
+.informaion-section{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.informaion-section h1,p,i{
+    font-family: sans-serif;
+}
+.informaion-section .info-icon-box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.info-icon-box i{
+    font-size: 27px;
+}
+.info-icon-box:hover{
+    background-color: #3EC1D5;
+}
+.info-icon-box:hover i{
+    color: white;
+}
+/* end information section coading */
+
+/* start footer section coading */
+.footer-section{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.footer-section p{
+    padding: 0;
+    margin: 0;
+}
+/* end footer section coading */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+    
+    h1{
+      text-align: center;
+      margin: 50px auto 100px;
+      color: rgb(238, 65, 22);
+    }
+    .main{
+      width: 100%;
+      min-height: 380px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+    }
+     .service{
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 0;
+      box-shadow: 0 0 20px -15px black;
+      z-index: 1;
+      transition: transform .7s;
+     margin: -50px auto;
+    }
+    .service-logo{
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 10px solid blue;
+      background: white;
+      margin: -90px auto 0;
+    }
+    .service-logo img{
+      width: 50px;
+      margin-top: 30px;
+    }
+    .service h3{
+      height: 35px;
+      width: 80%;
+      background: white;
+      margin: 50px auto;
+      position: relative;
+    }
+    
+    .service h3::after{
+      content: '';
+      width: 40px;
+      height: 30px;
+      background: linear-gradient(to right,white,#5205f0,white);
+      position: absolute;
+      right: -5px;
+      top: -5px;
+      z-index: -1;
+    }
+    .service h3::before{
+      content: '';
+      width: 40px;
+      height: 30px;
+      background: linear-gradient(to right,white,#5205f0,white);
+      position: absolute;
+      left: -5px;
+      bottom: -5px;
+      z-index: -1;
+    }
+    .shadow1{
+      height: 200px;
+      width: 80%;
+      background: white;
+      position: absolute;
+      border-radius: 10px;
+      bottom: 0;
+      left: 10%;
+      z-index: -1;
+      box-shadow: 0 0 20px -15px black;
+      transition: transform .7s;
+    }
+    .shadow2{
+      height: 200px;
+      width: 64%;
+      background: white;
+      position: absolute;
+      border-radius: 10px;
+      bottom: 0;
+      left: 10%;
+      z-index: -1;
+      box-shadow: 0 0 20px -15px black;
+      transition: transform .7s;
+    }
+    .main:hover .service{
+      transform: translateY(-50px);
+    }
+    
+    .main:hover .shadow1{
+      transform: translateY(-25px);
+    } 
+
+
